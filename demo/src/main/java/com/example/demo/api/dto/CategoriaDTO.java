@@ -7,9 +7,8 @@ import lombok.*;
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
-public class ClienteDTO {
+public class CategoriaDTO {
 
     private Long id;
     private String nome;
-    private String status;
 }
